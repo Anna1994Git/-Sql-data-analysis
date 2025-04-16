@@ -1,27 +1,44 @@
-# 🗃️ Instacart SQL Data Analysis (Achievement 3)
+# 🛒 Instacart SQL Data Analysis Project
 
-This project was completed as part of Achievement 3 in the CareerFoundry Data Analytics Program. It focuses on using SQL to analyze Instacart’s customer and product data to deliver business insights into customer behavior and purchasing patterns.
+This project focuses on analyzing customer behavior and order patterns from the Instacart dataset using SQL. The goal was to uncover actionable insights that can guide marketing, product placement, and customer segmentation strategies.
 
-## 📌 Project Goals
+Key tasks included:
+- Data cleaning and preparation
+- Customer segmentation by behavior
+- Identifying high-value customers
+- Performing advanced analysis using joins and subqueries
 
-- Clean and prepare data from multiple tables using SQL
-- Identify high-value customers and their purchasing trends
-- Create customer segments based on behavior and region
-- Highlight peak shopping hours and most frequently ordered products
-- Generate insights for marketing and customer engagement strategies
+---
 
-## 📁 Project Files
+## 📂 SQL Query Files
 
-- SQL queries (cleaning, segmentation, analysis)
-- PDF report of SQL outputs
-- Tableau visualization
-- Final insights and recommendations
+This repository includes a collection of SQL queries used throughout the analysis process:
 
+- [Data Cleaning](sql_queries/data_cleaning.sql)  
+  → Identifies top customers and filters for cleaned data insights.
 
-## 🛠️ Tools Used
+- [Customer Segmentation](sql_queries/customer_segmentation.sql)  
+  → Segments customers based on their ordering behavior into High, Medium, and Low activity groups.
 
-- PostgreSQL
-- DbVisualizer
-- Tableau Public
+- [High-Value Customers](sql_queries/high_value_customers.sql)  
+  → Displays the top 10 customers based on total spending across all orders.
 
+- [Advanced Queries](sql_queries/advanced_queries.sql)  
+  → Performs deeper analysis, including a CTE that identifies the top-performing departments by average order value.
+
+---
+
+## 🔧 Tools Used
+- PostgreSQL (SQL syntax)
+- Git & GitHub for version control
+- [CareerFoundry](https://careerfoundry.com/) Data Immersion Course framework
+
+---
+
+## 📈 Key Learnings
+- Writing efficient SQL queries using `JOIN`, `GROUP BY`, and subqueries
+- Segmenting customer groups for targeted marketing
+- Presenting clean and organized SQL code for portfolio-ready projects
+
+---
 
