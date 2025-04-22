@@ -1,4 +1,4 @@
-# 🛒 RockBuster SQL Data Analysis Project
+# 🛒 Instacart SQL Data Analysis Project
 
 This project focuses on analyzing customer behavior and order patterns from the Instacart dataset using SQL. The goal was to uncover actionable insights that can guide marketing, product placement, and customer segmentation strategies.
 
